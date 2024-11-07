@@ -1,0 +1,60 @@
+/* Imports */
+@import 'primeicons/primeicons.css';
+@import 'fonts.css';
+
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+body {
+  background: rgb(4,4,4);
+  font-family: OasisBody, serif;
+  font-size: 16px;
+}
+
+.heading {
+  font-family: OasisHeader, serif;
+  color: var(--p-sky-400);
+}
+
+.heading.sub {
+  color: var(--p-sky-300);
+}
+
+/* ANIMATIONS */
+
+.animate-fadein {
+  opacity: 1;
+  animation-name: fadein;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 0.5s;
+}
+
+.animate-fadeout {
+  opacity: 0;
+  animation-name: fadeout;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 0.5s;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeout {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
