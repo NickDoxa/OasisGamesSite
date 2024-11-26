@@ -9,7 +9,3 @@ import InfoTabs from "@/components/InfoTabs.vue";
   <CardDisplay/>
   <InfoTabs/>
 </template>
-
-<style scoped>
-
-</style>
