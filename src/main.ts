@@ -30,7 +30,8 @@ const OasisPreset = definePreset(Lara, {
 })
 app.use(PrimeVue, {
   theme: {
-    preset: OasisPreset
+    preset: OasisPreset,
+    darkModeSelector: true
   }
 });
 app.directive('animateonscroll', AnimateOnScroll)
