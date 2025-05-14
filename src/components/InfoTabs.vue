@@ -43,4 +43,20 @@ import ContactPage from "@/components/ContactPage.vue";
     width: 90%;
   }
 }
+
+:deep(.p-tabpanels) {
+  background-color: #18181b;
+}
+
+:deep(.p-tab) {
+  background-color: #27272a;
+}
+
+:deep(.p-tablist-tab-list) {
+  background-color: #18181b;
+}
+
+:deep(.p-tab-active) {
+  background-color: #18181b;
+}
 </style>

@@ -13,7 +13,7 @@ import Button from 'primevue/button'
     <Panel header="Social Media">
       <div class="social-buttons-container">
         <a href="https://discordapp.com/users/492105960912060438" target="_blank"><Button label="Discord" icon="pi pi-discord"/></a>
-        <a href="https://instagram.com/oasisgamesofficial" target="_blank"><Button label="Instagram" icon="pi pi-instagram"/></a>
+        <a href="https://instagram.com/oasisnetworkofficial" target="_blank"><Button label="Instagram" icon="pi pi-instagram"/></a>
         <a href="https://www.youtube.com/@oasisgames13" target="_blank"><Button label="Youtube" icon="pi pi-youtube"/></a>
       </div>
     </Panel>
@@ -36,6 +36,15 @@ import Button from 'primevue/button'
   justify-content: space-evenly;
   text-align: center;
   margin: auto;
+}
+
+:deep(.p-panel) {
+  border-color: #3f3f46;
+}
+
+:deep(.p-panel-header) {
+  background-color: #27272a;
+  border-color: #3f3f46;
 }
 
 @media (max-width: 45rem) {

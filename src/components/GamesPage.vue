@@ -20,7 +20,7 @@ const visible = ref<boolean>(false);
     </p>
     <img alt="lobby view of Toon Bot 2099" src="/lobby.png" class="tabs-game-image"/>
     <Button label="Steam Download" size="large" icon="pi pi-download" class="tabs-download-button" @click="visible = true"/>
-    <Dialog v-model:visible="visible" modal header="Not Released Yet!" :style="{ width: '25rem' }">
+    <Dialog v-model:visible="visible" modal header="Not Released Yet!" :style="{ width: '25rem', backgroundColor: '#18181b' }">
             <span class="text-surface-500 dark:text-surface-400 block mb-8">Toon Bot 2099 has not been released yet...
               Check back for a release date soon!</span>
     </Dialog>

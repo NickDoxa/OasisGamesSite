@@ -59,6 +59,10 @@ const getIcon = computed(() => 'pi ' + props.icon)
   font-style: normal;
 }
 
+:deep(.p-card) {
+  background-color: #18181b;
+}
+
 @media (max-width: 67.5rem) {
   .icon-card-content {
     min-height: 10rem;
